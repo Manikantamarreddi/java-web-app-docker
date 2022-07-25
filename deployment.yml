@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: mavencontainer
-        image: manikanta1213/java-web-application:$TAG
+        image: manikanta1213/java-web-application:TAG
         ports:
         - containerPort: 8080
         resources:
